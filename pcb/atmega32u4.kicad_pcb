@@ -3,9 +3,9 @@
   (general
     (links 80)
     (no_connects 0)
-    (area 123.284267 79.9976 178.94281 149.496209)
+    (area 126.289999 83.109999 150.570001 150.570001)
     (thickness 1.6)
-    (drawings 28)
+    (drawings 34)
     (tracks 324)
     (zones 0)
     (modules 21)
@@ -894,7 +894,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 57EBB8C0) (tstamp 57EB42BF)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 57EBBDCE) (tstamp 57EB42BF)
     (at 131.445 128.27 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -903,7 +903,7 @@
     (fp_text reference R4 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1K (at -1 -2.1 270) (layer F.SilkS)
+    (fp_text value 1K (at 1.3 -2.1 270) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -923,7 +923,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 57EBB8D4) (tstamp 57EB42C5)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 57EBBDCA) (tstamp 57EB42C5)
     (at 145.415 128.27 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -932,7 +932,7 @@
     (fp_text reference R5 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1K (at -1 2.1 270) (layer F.SilkS)
+    (fp_text value 1K (at 1.3 2.1 270) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.1)))
     )
     (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
@@ -1046,6 +1046,12 @@
     )
   )
 
+  (gr_line (start 126.365 150.495) (end 126.365 149.86) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150.495 150.495) (end 126.365 150.495) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150.495 149.86) (end 150.495 150.495) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 126.365 149.86) (end 126.365 83.185) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150.495 83.185) (end 150.495 149.86) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 126.365 83.185) (end 150.495 83.185) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_text PF7 (at 177.419 126.619) (layer F.SilkS) (tstamp 57EB0946)
     (effects (font (size 1 1) (thickness 0.15)))
   )
