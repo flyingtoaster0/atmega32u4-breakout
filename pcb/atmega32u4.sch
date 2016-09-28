@@ -346,41 +346,41 @@ Text Label 6300 4700 0    60   ~ 0
 PF6
 Text Label 6300 4800 0    60   ~ 0
 PF7
-Text Label 8600 2250 2    60   ~ 0
+Text Label 8600 4650 2    60   ~ 0
 ISP_MOSI/PB2
-Text Label 8600 2350 2    60   ~ 0
+Text Label 8600 4550 2    60   ~ 0
 ISP_MISO/PB3
-Text Label 8600 2150 2    60   ~ 0
+Text Label 8600 4750 2    60   ~ 0
 ISP_SCK/PB1
-Text Label 8600 2050 2    60   ~ 0
+Text Label 8600 4850 2    60   ~ 0
 PB0
-Text Label 8600 2450 2    60   ~ 0
+Text Label 8600 3150 2    60   ~ 0
 PB4
-Text Label 8600 2550 2    60   ~ 0
+Text Label 8600 3050 2    60   ~ 0
 PB5
-Text Label 8600 2650 2    60   ~ 0
-PB6
-Text Label 8600 2750 2    60   ~ 0
-PB7
-Text Label 8600 2850 2    60   ~ 0
-PC6
 Text Label 8600 2950 2    60   ~ 0
+PB6
+Text Label 8600 2850 2    60   ~ 0
+PB7
+Text Label 8600 2750 2    60   ~ 0
+PC6
+Text Label 8600 2650 2    60   ~ 0
 PC7
-Text Label 8600 3850 2    60   ~ 0
+Text Label 8600 4450 2    60   ~ 0
 PD0
-Text Label 8600 3950 2    60   ~ 0
+Text Label 8600 4350 2    60   ~ 0
 PD1
-Text Label 8600 4050 2    60   ~ 0
+Text Label 8600 4250 2    60   ~ 0
 PD2
 Text Label 8600 4150 2    60   ~ 0
 PD3
-Text Label 8600 4250 2    60   ~ 0
+Text Label 8600 4050 2    60   ~ 0
 PD4
-Text Label 8600 4350 2    60   ~ 0
+Text Label 8600 3950 2    60   ~ 0
 PD5
-Text Label 8600 4450 2    60   ~ 0
+Text Label 8600 3850 2    60   ~ 0
 PD6
-Text Label 8600 4550 2    60   ~ 0
+Text Label 8600 3750 2    60   ~ 0
 PD7
 $Comp
 L CONN_01X14 P1
@@ -404,17 +404,17 @@ F 3 "" H 8800 4300 50  0000 C CNN
 	1    8800 4300
 	1    0    0    -1  
 $EndComp
-Text Label 8600 3050 2    60   ~ 0
+Text Label 8600 2050 2    60   ~ 0
 PF0
-Text Label 8600 3150 2    60   ~ 0
+Text Label 8600 2150 2    60   ~ 0
 PF1
-Text Label 8600 4650 2    60   ~ 0
+Text Label 8600 2250 2    60   ~ 0
 PF4
-Text Label 8600 4750 2    60   ~ 0
+Text Label 8600 2350 2    60   ~ 0
 PF5
-Text Label 8600 4850 2    60   ~ 0
+Text Label 8600 2450 2    60   ~ 0
 PF6
-Text Label 8600 4950 2    60   ~ 0
+Text Label 8600 2550 2    60   ~ 0
 PF7
 $Comp
 L +5V #PWR010
@@ -485,12 +485,12 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 57EB5F9C
-P 8250 3750
-F 0 "#PWR?" H 8250 3500 50  0001 C CNN
-F 1 "GND" H 8250 3600 50  0000 C CNN
-F 2 "" H 8250 3750 50  0000 C CNN
-F 3 "" H 8250 3750 50  0000 C CNN
-	1    8250 3750
+P 8250 3650
+F 0 "#PWR?" H 8250 3400 50  0001 C CNN
+F 1 "GND" H 8250 3500 50  0000 C CNN
+F 2 "" H 8250 3650 50  0000 C CNN
+F 3 "" H 8250 3650 50  0000 C CNN
+	1    8250 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -571,13 +571,6 @@ Wire Wire Line
 	3850 2000 3700 2000
 Connection ~ 3700 2000
 Wire Wire Line
-	8250 3750 8600 3750
-Wire Wire Line
-	8600 3650 8550 3650
-Wire Wire Line
-	8550 3650 8550 3750
-Connection ~ 8550 3750
-Wire Wire Line
 	7850 1950 8600 1950
 $Comp
 L GND #PWR?
@@ -634,4 +627,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 1900 3700 1900
 Connection ~ 3700 1900
+Wire Wire Line
+	8600 3650 8250 3650
 $EndSCHEMATC
